@@ -11,19 +11,19 @@ class Admin_model extends CI_Model
 
     public function high()
     {
-        $data = $this->db->query("SELECT * FROM tb_logbook WHERE resiko='High'");
+        $data = $this->db->query("SELECT * FROM tb_logbook WHERE status='High'");
         return $data->num_rows();
     }
 
     public function medium()
     {
-        $data = $this->db->query("SELECT * FROM tb_logbook WHERE resiko='Medium'");
+        $data = $this->db->query("SELECT * FROM tb_logbook WHERE status='Medium'");
         return $data->num_rows();
     }
 
     public function low()
     {
-        $data = $this->db->query("SELECT * FROM tb_logbook WHERE resiko='Low'");
+        $data = $this->db->query("SELECT * FROM tb_logbook WHERE status='Low'");
         return $data->num_rows();
     }
 

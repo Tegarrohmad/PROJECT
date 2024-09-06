@@ -50,7 +50,7 @@ class Fitur extends CI_Controller
         $data['user'] = $this->db->get_where('tb_user', ['username' => $this->session->userdata('username')])->row_array();
 
         $data['elogbook'] = $this->Logbook_model->getBookById($id);
-        $data['listresiko'] = ['High', 'Medium', 'Low'];
+        $data['liststatus'] = ['High', 'Medium', 'Low'];
 
         $this->form_validation->set_rules('tgl', 'Tanggal', 'required');
         $this->form_validation->set_rules('kejadian', 'Kejadian', 'required');

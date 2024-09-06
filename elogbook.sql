@@ -33,7 +33,7 @@ CREATE TABLE `tb_logbook` (
   `tgl` varchar(10) NOT NULL,
   `kejadian` text NOT NULL,
   `lokasi` varchar(200) NOT NULL,
-  `resiko` varchar(10) NOT NULL,
+  `status` varchar(10) NOT NULL,
   `tindakan` text NOT NULL,
   `ket` text NOT NULL,
   `nama` varchar(128) NOT NULL,
@@ -45,7 +45,7 @@ CREATE TABLE `tb_logbook` (
 -- Dumping data for table `tb_logbook`
 --
 
-INSERT INTO `tb_logbook` (`id`, `nip`, `tgl`, `kejadian`, `lokasi`, `resiko`, `tindakan`, `ket`, `nama`, `level`, `kode`) VALUES
+INSERT INTO `tb_logbook` (`id`, `nip`, `tgl`, `kejadian`, `lokasi`, `status`, `tindakan`, `ket`, `nama`, `level`, `kode`) VALUES
 (2, '31011', '2020-05-10', 'Jaringan Internet Down', 'Gedung Adminstrasi', 'High', 'Menghubungi pihak Telkom', 'Sudah di tindak lanjuti permasalahan selesai', 'Hafiizh Zoelva Khairani', 'Admin', '0.1.1'),
 (4, '310114', '2020-12-12', 'Ruang section head kebanjiran', 'Unit Section Head', 'High', 'Membersihkan sisa banjir', 'Ruang sudah kembali bersih', 'Hafiizh Zoelva', 'Staf', '0.1.4'),
 (5, '310113', '2020-02-20', 'Ruang staf terkunci', 'Ruang staf', 'High', 'Mencari kunci ruangan', 'Ruang sudah dapat dibuka kembali', 'Khairani', 'Section Head', '0.1.4'),

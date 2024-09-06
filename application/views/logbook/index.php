@@ -21,8 +21,8 @@
                                 <th>NIP</th>
                                 <th>Tanggal</th>
                                 <th>Kejadian</th>
-                                <th>Lokasi</th>
-                                <th>Resiko</th>
+                                <th>lokasi</th>
+                                <th>Status</th>
                                 <th>Tindakan</th>
                                 <th>Keterangan</th>
                                 <th>Nama</th>
@@ -38,7 +38,7 @@
                                     <td><?= $lbu->tgl ?></td>
                                     <td><?= $lbu->kejadian ?></td>
                                     <td><?= $lbu->lokasi ?></td>
-                                    <td><?= $lbu->resiko ?></td>
+                                    <td><?= $lbu->status ?></td>
                                     <td><?= $lbu->tindakan ?></td>
                                     <td><?= $lbu->ket ?></td>
                                     <td><?= $lbu->nama ?></td>
@@ -66,8 +66,8 @@
                                 <th>NIP</th>
                                 <th>Tanggal</th>
                                 <th>Kejadian</th>
-                                <th>Lokasi</th>
-                                <th>Resiko</th>
+                                <th>lokasi</th>
+                                <th>Status</th>
                                 <th>Tindakan</th>
                                 <th>Keterangan</th>
                                 <th>Nama</th>
@@ -82,7 +82,7 @@
                                     <td><?= $lb['tgl']; ?></td>
                                     <td><?= $lb['kejadian']; ?></td>
                                     <td><?= $lb['lokasi']; ?></td>
-                                    <td><?= $lb['resiko']; ?></td>
+                                    <td><?= $lb['status']; ?></td>
                                     <td><?= $lb['tindakan']; ?></td>
                                     <td><?= $lb['ket']; ?></td>
                                     <td><?= $lb['nama']; ?></td>
@@ -135,8 +135,8 @@
                     <input type="text" class="form-control" id="lokasi" name="lokasi" placeholder="Lokasi Kejadian">
                 </div>
                 <div class="form-group">
-                    <select name="resiko" id="resiko" class="form-control">
-                        <option value="">Resiko</option>
+                    <select name="status" id="status" class="form-control">
+                        <option value="">status</option>
                         <option value="High">High</option>
                         <option value="Medium">Medium</option>
                         <option value="Low">Low</option>

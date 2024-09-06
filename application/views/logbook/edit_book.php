@@ -47,12 +47,12 @@
                             </div>
                             <div class="row form-group">
                                 <div class="col col-md-3">
-                                    <label for="text-input" class=" form-control-label">Resiko</label>
+                                    <label for="text-input" class=" form-control-label">status</label>
                                 </div>
                                 <div class="col-12 col-md-9">
-                                    <select class="custom-select" id="resiko" name="resiko">
-                                        <?php foreach ($listresiko as $lr) : ?>
-                                            <?php if ($lr == $elogbook['resiko']) : ?>
+                                    <select class="custom-select" id="status" name="status">
+                                        <?php foreach ($liststatus as $lr) : ?>
+                                            <?php if ($lr == $elogbook['status']) : ?>
                                                 <option value="<?= $lr; ?>" selected><?= $lr ?></option>
                                             <?php else : ?>
                                                 <option value="<?= $lr; ?>"><?= $lr ?></option>

@@ -9,7 +9,7 @@ class Logbook_model extends CI_Model
             "tgl" => $this->input->post('tgl', true),
             "kejadian" => $this->input->post('kejadian', true),
             "lokasi" => $this->input->post('lokasi', true),
-            "resiko" => $this->input->post('resiko', true),
+            "status" => $this->input->post('status', true),
             "tindakan" => $this->input->post('tindakan', true),
             "ket" => $this->input->post('ket', true),
             "nama" => $this->input->post('nama', true),
@@ -51,7 +51,7 @@ class Logbook_model extends CI_Model
             "tgl" => $this->input->post('tgl', true),
             "kejadian" => $this->input->post('kejadian', true),
             "lokasi" => $this->input->post('lokasi', true),
-            "resiko" => $this->input->post('resiko', true),
+            "status" => $this->input->post('status', true),
             "tindakan" => $this->input->post('tindakan', true),
             "ket" => $this->input->post('ket', true)
         ];

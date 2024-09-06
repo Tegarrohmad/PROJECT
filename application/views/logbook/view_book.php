@@ -33,8 +33,8 @@
                                 <th>NIP</th>
                                 <th>Tanggal</th>
                                 <th>Kejadian</th>
-                                <th>Lokasi</th>
-                                <th>Resiko</th>
+                                <th>lokasi</th>
+                                <th>status</th>
                                 <th>Tindakan</th>
                                 <th>Keterangan</th>
                                 <th>Nama</th>
@@ -49,7 +49,7 @@
                                     <td><?= $lbu->tgl ?></td>
                                     <td><?= $lbu->kejadian ?></td>
                                     <td><?= $lbu->lokasi ?></td>
-                                    <td><?= $lbu->resiko ?></td>
+                                    <td><?= $lbu->status ?></td>
                                     <td><?= $lbu->tindakan ?></td>
                                     <td><?= $lbu->ket ?></td>
                                     <td><?= $lbu->nama ?></td>

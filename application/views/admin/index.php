@@ -80,7 +80,7 @@
                     <div class="au-card m-b-30">
                         <div class="au-card-inner">
                             <h5 class="lg-title">Grafik E-Logbook</h5>
-                            <p class="mb15">Berikut hasil laporan E-Logbook yang masuk berdasarkan resiko.</p>
+                            <p class="mb15">Berikut hasil laporan E-Logbook yang masuk berdasarkan status.</p>
                             <canvas id="myChart" class="height300"></canvas>
                             <script type="text/javascript" src="<?= base_url('assets/'); ?>js/Chart.js"></script>
                             <script>
